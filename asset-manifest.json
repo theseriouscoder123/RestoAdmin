@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/RestoAdmin/static/css/main.78451e62.css",
+    "main.js": "/RestoAdmin/static/js/main.ef729cbf.js",
+    "static/js/453.4996f342.chunk.js": "/RestoAdmin/static/js/453.4996f342.chunk.js",
+    "static/media/auth_land_image.jpg": "/RestoAdmin/static/media/auth_land_image.9bf942098259d1c2450a.jpg",
+    "index.html": "/RestoAdmin/index.html",
+    "main.78451e62.css.map": "/RestoAdmin/static/css/main.78451e62.css.map",
+    "main.ef729cbf.js.map": "/RestoAdmin/static/js/main.ef729cbf.js.map",
+    "453.4996f342.chunk.js.map": "/RestoAdmin/static/js/453.4996f342.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.78451e62.css",
+    "static/js/main.ef729cbf.js"
+  ]
+}
