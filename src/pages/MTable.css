@@ -1,0 +1,23 @@
+.table-custom {
+  width: 50%; 
+  border-radius: 20%;
+  margin-left: 2vw;
+
+  }
+.table-custom th,
+.table-custom td {
+    border-color: #f3f3f3; /* Custom row border color */
+}
+.table-custom thead th {
+    background-color: #e6534c; 
+    color: #f3f3f3;/* Custom header background color */
+    /* Custom header text color */
+}.table-custom tbody  {
+background-color: #f3f3f3; /* Custom row border color */
+    /* Custom header background color */
+ /* Custom header text color */
+}
+.chq{
+background-color: #4d1919; /* Custom row border color */
+
+}

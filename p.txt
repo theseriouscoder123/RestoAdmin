@@ -1,0 +1,108 @@
+ <Row className="mb-4 mt-1 ">
+          <Col md={3}>
+            <Card style={{ border: "1px solid #F1C8C8", backgroundColor: "#FFF2F2" }}>
+              <Container>
+                <Card.Body>
+                  <Card.Text>
+                    <Card.Title>
+                      <h2>65</h2>{" "}
+                    </Card.Title>
+                    <Card.Title>Today's Orders</Card.Title>
+                  </Card.Text>
+                </Card.Body>
+              </Container>
+            </Card>
+          </Col>
+          <Col md={3}>
+            <Card style={{ border: "1px solid #F1C8C8", backgroundColor: "#FFF2F2" }}>
+              <Container>
+                <Card.Body>
+                  <Card.Text>
+                    <Card.Title>
+                      <h2>65</h2>{" "}
+                    </Card.Title>
+                    <Card.Title>Today's Orders</Card.Title>
+                  </Card.Text>
+                </Card.Body>
+              </Container>
+            </Card>
+          </Col>
+          <Col md={3}>
+            <Card style={{ border: "1px solid #F1C8C8", backgroundColor: "#FFF2F2" }}>
+              <Container>
+                <Card.Body>
+                  <Card.Text>
+                    <Card.Title>
+                      <h2>65</h2>{" "}
+                    </Card.Title>
+                    <Card.Title>Today's Orders</Card.Title>
+                  </Card.Text>
+                </Card.Body>
+              </Container>
+            </Card>
+          </Col>
+        </Row>
+        <Row>
+          <Col md={8}>
+            <Card className="mb-4">
+              <Card.Body>
+                <Card.Title>Sales</Card.Title>
+                <div style={{ height: "250px" }}>
+                  {" "}
+                  {/* Placeholder for Chart */}
+                </div>
+              </Card.Body>
+            </Card>
+            <Card>
+              <Card.Body>
+                <Card.Title>Table Status</Card.Title>
+                <ListGroup variant="flush">
+                  <ListGroup.Item>Available: 60%</ListGroup.Item>
+                  <ListGroup.Item>Reserved/Occupied: 30%</ListGroup.Item>
+                  <ListGroup.Item>Out of Service: 10%</ListGroup.Item>
+                </ListGroup>
+              </Card.Body>
+            </Card>
+          </Col>
+          <Col md={4}>
+            <Card className="mb-4">
+              <Card.Body>
+                <Card.Title>Top Category</Card.Title>
+                <div style={{ height: "250px" }}>
+                  {" "}
+                  {/* Placeholder for Chart */}
+                </div>
+              </Card.Body>
+            </Card>
+            <Card className="mb-4">
+              <Card.Body>
+                <Card.Title>Top Items</Card.Title>
+                <ListGroup variant="flush">
+                  <ListGroup.Item>Panner Tikka: ₹18520.00</ListGroup.Item>
+                  <ListGroup.Item>Lababdar Panner: ₹16650.00</ListGroup.Item>
+                  <ListGroup.Item>Masala Dosa: ₹15430.00</ListGroup.Item>
+                  <ListGroup.Item>Haydrabadi Biryani: ₹14503.00</ListGroup.Item>
+                </ListGroup>
+              </Card.Body>
+            </Card>
+            <Card>
+              <Card.Body>
+                <Card.Title>Top Waiters</Card.Title>
+                <ListGroup variant="flush">
+                  <ListGroup.Item>Aakash Sharma: ₹15650.00</ListGroup.Item>
+                  <ListGroup.Item>Vijay Varma: ₹12480.00</ListGroup.Item>
+                  <ListGroup.Item>Manoj Kale: ₹9872.00</ListGroup.Item>
+                  <ListGroup.Item>Bhushan Bansode: ₹6500.00</ListGroup.Item>
+                </ListGroup>
+              </Card.Body>
+            </Card>
+          </Col>
+        </Row>
+        <Row className="mt-4">
+          <Col md={6}>
+            <Button variant="outline-primary">Add/Edit Tables</Button>
+          </Col>
+          <Col md={6}>
+            <Button variant="outline-primary">Add/Edit Menu</Button>
+          </Col>
+        </Row>

@@ -1,0 +1,21 @@
+.title-strip {
+  height: 5vh; /* Set height to 10% of the viewport height */
+  width: 100%; /* Set width to 100% */
+  background-color: #ffeeee; /* Set a background color */
+  display: flex; /* Use flexbox for alignment */
+  justify-content: space-between; /* Space out the text evenly */
+  align-items: center; /* Center items vertically */
+  color: black; /* Set text color */
+  padding: 0 2vw; /* Add padding to the left and right sides */
+  box-sizing: border-box;
+  font-size: 1.25em;
+  font-weight: 500; /* Include padding in the element's total width and height */
+}
+.add-btn {
+  background-color: #503aa4;
+  font-size: 1.25em;
+}
+.title-strip .title-group {
+  display: flex; /* Use flexbox to align the texts horizontally */
+  gap: 20px; /* Add space between the texts */
+}

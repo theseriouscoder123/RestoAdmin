@@ -1,0 +1,31 @@
+/* RightModal.css */
+.modal-right .modal-dialog {
+    position: fixed;
+    right: 0;
+    top: 0;
+    margin: 0;
+    height: 100%;
+    transform: none;
+  }
+  
+  .modal-right .modal-content {
+    height: 100%;
+    border: 0;
+    border-radius: 0;
+  }
+  .dataCard {
+   
+    border-radius: 0.5em;
+  
+  }
+  
+  .revenueCard {
+    width: 92%;
+    height: 20rem;
+  }
+
+  
+  .categoryCard {
+    width: 40%;
+    height: 20rem;
+  }

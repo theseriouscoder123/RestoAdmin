@@ -1,0 +1,59 @@
+.table-container {
+  border: 1px solid #ddd; /* Border around the entire table */
+  border-radius: 5px;
+  overflow: hidden; /* Hide overflow to prevent double borders */
+}
+
+.table-header {
+  background-color: #e6534c; /* Red background color for header */
+  color: #FFFFFF; /* White text color for header */
+  font-weight: 500;
+  font-size: 1em;
+  padding: 10px 0;
+  border-bottom: 1px solid #ddd;
+  position: sticky;
+  position: -webkit-sticky;
+
+  /* Bottom border for header */
+}
+
+.table-row {
+  background-color: #f3f3f3; /* Gray background color for rows */
+  border-bottom: 1px solid #ddd; /* Bottom border for each row */
+}
+.table-row:last-child {
+  border-bottom: none;
+}
+.table-cell {
+  padding: 10px;
+  font-size: 1em;
+color: #505050;
+  border-right: 2px solid white; /* Right border for all cells except last */
+}
+.table-cell:last-child {
+  border-right: none;
+}
+.icon-button {
+  background: none;
+  border: none;
+  padding: 0;
+  margin-right: 10px;
+  color: #6c757d;  /* Bootstrap's secondary color */
+}
+
+.icon-button:hover {
+  color: #000;  /* Change color on hover */
+}
+
+.manage-tables-button {
+  background: none;
+  border: none;
+  color: #6c757d;  /* Bootstrap's secondary color */
+  display: flex;
+  align-items: center;
+}
+
+.manage-tables-button:hover {
+  color: #000;  /* Change color on hover */
+  text-decoration: underline;
+}

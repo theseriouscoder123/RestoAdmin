@@ -1,0 +1,4 @@
+.active-link {
+  color: white !important; /* White text color */
+  font-weight: bold; /* Example: Bold font for active link */
+}
